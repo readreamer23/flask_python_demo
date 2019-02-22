@@ -16,12 +16,20 @@
 pip install requirements.txt
 ```
 
-2 进入目录，运行脚本
+
+2 目录说明
+analysis: 数据分析脚本目录，从mongodb查询数据进行统计分析，结果数据写到Html或图片jpg里，供前端调取
+example:  字体格式文件
+static:   静态文件：放置项目用到的图片，js文件等
+templates: 集中放置展示页面html,直接用于前端展示
+db: 项目用json测试数据
+
+3 进入目录，运行服务启动脚本
 
 ```shell
 python flask_python_demo.py
 ```
 
-3 预览，访问浏览器 http://127.0.0.1:10200 即可。
+4 预览，访问浏览器 http://127.0.0.1:10200 即可。
 
 ![screenshots](screenshots.png)
